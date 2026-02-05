@@ -1,0 +1,1000 @@
+ 1067  ansible -i inventory.ini -m ping all
+ 1068  ssh-copy-id -f .  ubuntu@54.160.141.15
+ 1069  ls /home/vinod
+ 1070  ssh-copy-id /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1071  ssh-copy-id -f  /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1072  ssh-copy-id -f "/home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1073  ssh-copy-id -f "-o IdentityFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1074  systemctl status ssh
+ 1075  sudo systemctl restart ssh
+ 1076  yum install ssh
+ 1077  apt-get install ssh
+ 1078  sudo ssh-copy-id
+ 1079  sudo ssh-copy-id -f "-o IdentityFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1080  scp -i /home/vinod/vinod-aws-keypair.pem /home/vinod/vinod-aws-keypair.pem ubuntu@<AWS-IP>:/home/ubuntu/
+ 1081  scp -i /home/vinod/vinod-aws-keypair.pem /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15:/home/ubuntu/
+ 1082  scp -i /home/vinod/vinod-aws-keypair.pem  ubuntu@54.160.141.15:/home/ubuntu/
+ 1083  systemctl status ssh
+ 1084  sudo apt update
+ 1085  sudo apt install -y openssh-server
+ 1086  sudo ssh-copy-id -f "-o IdentityFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1087  sudo systemctl ssh
+ 1088  systemctl status ssh
+ 1089  ssh -i /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1090  ls -ltr
+ 1091  ls /home/vinod/
+ 1092  ls -ltr /home/vinod/
+ 1093  chmod 755 vinod-aws-keypair.pem
+ 1094  chmod 755 /home/vinod/vinod-aws-keypair.pem
+ 1095  ls -ltr /home/vinod/
+ 1096  ssh -i /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1097  chmod 400 /home/vinod/vinod-aws-keypair.pem
+ 1098  ssh -i /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1099  ssh -i /home/vinod/vinod-aws-keypair.pem ubuntu@3.93.182.248
+ 1100  ls -ltr /home/vinod/
+ 1101  ssh-copy-id
+ 1102  ls /usr/bin/
+ 1103  /usr/bin/
+ 1104  cd /usr/bin/
+ 1105  clear
+ 1106  sudo ssh-copy-id -f "-o IdentityFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1107  ssh-copy-id
+ 1108  man ssh-copy-id
+ 1109  ssh-copy-id -i /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1110  ls /home/vinod/
+ 1111  ssh-keygen -y -f /home/vinod/vinod-aws-keypair.pem > /home/vinod/vinod-aws-keypair.pub
+ 1112  ls /home/vinod
+ 1113  ssh-copy-id -i /home/vinod/vinod-aws-keypair.pub ubuntu@54.160.141.15
+ 1114  ssh-copy-id -i "/home/vinod/vinod-aws-keypair.pub" ubuntu@54.160.141.15
+ 1115  ssh-copy-id -i -f  "/home/vinod/vinod-aws-keypair.pub" ubuntu@54.160.141.15
+ 1116  ssh-copy-id 
+ 1117  ssh-copy-id -f /home/vinod/vinod-aws-keypair.pub ubuntu@54.160.141.15
+ 1118  cd /home/vinod/
+ 1119  ssh-copy-id -i vinod-aws-keypair.pub ubuntu@54.160.141.15
+ 1120  pwd
+ 1121  ls
+ 1122  ssh-copy-id -i 'vinod-aws-keypair.pub' ubuntu@54.160.141.15
+ 1123  ls
+ 1124  chmod 600 vinod-aws-keypair.pem
+ 1125  ssh-copy-id -i vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1126  ssh-copy-id -i vinod-aws-keypair.pub ubuntu@54.160.141.15
+ 1127  cat vinod-aws-keypair.pub | ssh -i vinod-aws-keypair.pem ubuntu@54.160.141.15   "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+ 1128  ssh ubuntu@54.160.141.15
+ 1129  sudo ssh ubuntu@54.160.141.15
+ 1130  ssh -i vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1131  cat vinod-aws-keypair.pub
+ 1132  ssh -i vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1133  ssh -i ubuntu@54.160.141.15
+ 1134  ssh ubuntu@54.160.141.15
+ 1135  sudo ssh ubuntu@54.160.141.15
+ 1136  ssh ubuntu@54.160.141.15
+ 1137  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15'
+ 1138  ssh ubuntu@54.160.141.15
+ 1139  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15'
+ 1140  ssh ubuntu@54.160.141.15
+ 1141  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15'
+ 1142  ssh ubuntu@54.160.141.15
+ 1143  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15
+ 1144  '
+ 1145  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15'
+ 1146  ssh ubuntu@3.93.182.248
+ 1147  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@3.93.182.248'
+ 1148  ssh ubuntu@3.93.182.248
+ 1149  cd /home/vinod/
+ 1150  pwd
+ 1151  ls -ltr
+ 1152  ubuntu@3.93.182.248
+ 1153  ssh ubuntu@3.93.182.248
+ 1154  sudo ubuntu@3.93.182.248
+ 1155  sudo ssh ubuntu@3.93.182.248
+ 1156  chmod 600 ~/vinod-aws-keypair.pem
+ 1157  ls -ltr
+ 1158  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@3.93.182.248'
+ 1159  ssh manage-node-1
+ 1160  ssh 54.160.141.15
+ 1161  ssh ubuntu@54.160.141.15
+ 1162  sudo ssh ubuntu@54.160.141.15
+ 1163  sudo ssh ubuntu@3.93.182.248
+ 1164  exit
+ 1165  clear
+ 1166  ls -ltr
+ 1167  rm vinod-aws-keypair.pem
+ 1168  rm vinod-aws-keypair.pem\:Zone.Identifier 
+ 1169  rm vinod-aws-keypair.pub 
+ 1170  ls -ltr
+ 1171  clear
+ 1172  ls -ltr
+ 1173  cd ./Ansible_Practice/
+ 1174  ls -ltr
+ 1175  cd Day02/
+ 1176  ls 
+ 1177  cat inventory.ini 
+ 1178  ansible-playbook -i inventory.ini ping all
+ 1179  ansible-playbook -i inventory.ini -m ping all
+ 1180  ansible -i inventory.ini -m ping all
+ 1181  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1182  ls -ltr
+ 1183  cd /home/vinod/
+ 1184  ls -ltr
+ 1185  pwd
+ 1186  ls -ltr
+ 1187  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1188  chmod 400 /home/vinod/vinod-aws-keypair.pem
+ 1189  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1190  ansible -i inventory.ini -m ping all
+ 1191  ls -ltr
+ 1192  pwd
+ 1193  cd Ansible_Practice/
+ 1194  pwd
+ 1195  ls
+ 1196  cd Day02/
+ 1197  ls -ltr
+ 1198  ansible -i inventory.ini -m ping all
+ 1199  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1200  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@13.217.225.205'
+ 1201  ansible -i inventory.ini -m ping all
+ 1202  ansible -i inventory.ini all -m setup | grep ansible_python_interpreter
+ 1203  ansible -i inventory.ini all -m setup | grep python 
+ 1204  ansible -i inventory.ini -m ping all
+ 1205  ansible-playbook -i inventory.ini all
+ 1206  ansible-playbook -i inventory.ini 
+ 1207  ansible-playbook -i inventory.ini playbook.yaml
+ 1208  ansible hosts_to_add_key -m ping all --user Ubuntu -key-file ~/home/vinod/vinod-aws-keypair.pem
+ 1209  ansible hosts_to_add_key -m ping all --user Ubuntu 
+ 1210  systemctl sshd restart
+ 1211  sudo systemctl restart sshd
+ 1212  ansible hosts_to_add_key -m ping all --user Ubuntu 
+ 1213  ansible-playbook -i inventory.ini playbook.yaml
+ 1214  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1215  ssh-copy-id
+ 1216  ssh-copy -f "-o IdentifyFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1217  ssh-copy-id -f "-o IdentifyFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1218  cd /usr/bin/
+ 1219  ssh-copy-id -f "-o IdentifyFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1220  ssh-keygen -t rsa
+ 1221  ssh-copy-id -f "-o IdentifyFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1222  cd /home/vinod/.ssh/
+ 1223  ls -ltr
+ 1224  ssh-copy-id -f "-o id_rsa ubuntu@54.234.101.142
+ 1225  ssh-copy-id -f "-o id_rsa" ubuntu@54.234.101.142
+ 1226  ssh-copy-id -f "-o id_rsa.pub" ubuntu@54.234.101.142
+ 1227  ssh-copy -f "-o id_rsa.pub" ubuntu@54.234.101.142
+ 1228  cd /home/vinod/ansi
+ 1229  cd /home/vinod/
+ 1230  cd ./Ansible_Practice/
+ 1231  cd Day02/
+ 1232  git add .
+ 1233  git commit 
+ 1234  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1235  cd /home
+ 1236  ssh-copy-id
+ 1237  clear
+ 1238  cd /home/vinod/Ansible_Practice/
+ 1239  ls
+ 1240  cd Day02/
+ 1241  ls
+ 1242  cd /home/vinod
+ 1243  ls -ltr
+ 1244  ssh-copy-id -f "-o IdentityFile vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1245  which ansible
+ 1246  cd /usr/local/bin
+ 1247  ls -ltr
+ 1248  ansible --version
+ 1249  cd ansible 
+ 1250  cd /home/vinod/
+ 1251  ls -ltr
+ 1252  cd /usr/local/bin/
+ 1253  ls -ltr
+ 1254  ls ansible
+ 1255  cd ansibl
+ 1256  cd ansbile
+ 1257  ansible --version
+ 1258  cd ansible
+ 1259  cd /etc/
+ 1260  ls -ltr
+ 1261  ls | grep ansible
+ 1262  ansible --version
+ 1263  cd /home/vinod/.ansible/
+ 1264  ls 
+ 1265  cd ..
+ 1266  cd /home/vinod/.ansible/collections:/usr/share/ansible/collections
+ 1267  cd /home/vinod/.ansible/collections:/usr/share/ansible
+ 1268  ls
+ 1269  /usr/local/bin/ansible
+ 1270  cd /usr/local/bin/ansible
+ 1271  clear
+ 1272  ansible --version
+ 1273  cd /etc/sudoers
+ 1274  cd /etc/
+ 1275  ls -ltr | grep sudo
+ 1276  cd sudoers
+ 1277  cat sudoers
+ 1278  sudo su -
+ 1279  cd /etc/sudoers.d/
+ 1280  ls 
+ 1281  cd ..
+ 1282  cd /etc/sudoers
+ 1283  cat /etc/sudoers
+ 1284  sudo cat /etc/sudoers
+ 1285  cat /etc/sudoers
+ 1286  cd /hom
+ 1287  cd /home/vinod
+ 1288  ls
+ 1289  cd Ansible_Practice/
+ 1290  cd Day02/
+ 1291  ls -ltr
+ 1292  ansible-galaxy role init test
+ 1293  ls -ltr
+ 1294  cd test/
+ 1295  ls -ltr
+ 1296  cd handlers/
+ 1297  ls -ltr
+ 1298  cd ..
+ 1299  ls -ltr
+ 1300  cd ..
+ 1301  cd tesks
+ 1302  ls tasks/
+ 1303  ls -ltr
+ 1304  cd tasks/
+ 1305  ls -ltr
+ 1306  cat main.yml 
+ 1307  sudo su -
+ 1308  cd ..
+ 1309  ls
+ 1310  cd AWS_Terraform/
+ 1311  ls
+ 1312  cd Ec2Instances/
+ 1313  clear
+ 1314  tf output
+ 1315  alias tf=terraform
+ 1316  tf output
+ 1317  tf destroy
+ 1318  tf plan
+ 1319  tf apply -auto-approve
+ 1320  cd ..
+ 1321  git add .
+ 1322  git commit "Ec2 instances for ansible"
+ 1323  git commit
+ 1324  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1325  cd Ec2Instances/
+ 1326  tf destroy
+ 1327  tf apply
+ 1328  tf destroy
+ 1329  clear
+ 1330  ls 
+ 1331  ls -ltr
+ 1332  tf plan
+ 1333  tf apply
+ 1334  tf destroy
+ 1335  clear
+ 1336  ssh ubuntu@100.53.67.236
+ 1337  ssh ubuntu@13.222.18.95
+ 1338  clear
+ 1339  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@18.234.206.117
+ 1340  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@35.153.202.100
+ 1341  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@35.153.202.100'
+ 1342  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@54.89.2.4
+ 1343  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@54.89.2.4'
+ 1344  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@54.146.60.10
+ 1345  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@54.146.60.10'
+ 1346  ssh ubuntu@35.153.202.100
+ 1347  ssh ubuntu54.89.2.4
+ 1348  ssh ubuntu@54.89.2.4
+ 1349  ssh ubuntu@54.146.60.10
+ 1350  ls
+ 1351  cd Day02
+ 1352  ls
+ 1353  vi inventory.ini 
+ 1354  ansible -i inventory.ini -m ping all
+ 1355  ansible -i inventory.ini -m shell -a "apt install openjdk" all
+ 1356  ansible -i inventory.ini -m ping ubuntu@54.146.60.10
+ 1357  ansible -i inventory.ini -m ping all
+ 1358  ansible -i inventory.ini -m ping dbserver
+ 1359  ansible -i inventory.ini -m ping app
+ 1360  ansible all -m ansible.builtin.user -a "name=foo password=vinod"
+ 1361  ansible -i inventory.ini -m ansible.builtin.user -a "name=foo password=vinod"
+ 1362  ansible -i inventory.ini -m ansible.builtin.user -a "name=foo password=vinod" all
+ 1363  ansible app -m ansible.builtin.service -a "name=httpd state=started"
+ 1364  ansible -i inventory.ini -m ansible.builtin.service -a "name=httpd state=started" app
+ 1365  ansible -i inventory.ini -m shell -a "sudo ls /etc/" dbserver
+ 1366  ansible -i inventory.ini -m copy -a "content=vinod dest=/root/vinod.txt" dbserver
+ 1367  ansible -i inventory.ini -m copy -a "content=vinod dest=sudo /root/vinod.txt" dbserver
+ 1368  ansible -i inventory.ini -m shell -a "sudo cat "vinod">/root/vinod.txt" dbserver
+ 1369  git add .
+ 1370  git commit 
+ 1371  history
+ 1372  history > inventory_ping.txt
+ 1373  git add .
+ 1374  git commit
+ 1375  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1376  cd ..
+ 1377  cd Day03/
+ 1378  ls
+ 1379  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@54.224.242.13
+ 1380  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@54.224.242.13'
+ 1381  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@100.30.234.49
+ 1382  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@100.30.234.49'
+ 1383  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@3.89.197.64
+ 1384  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@3.89.197.64'
+ 1385  clear
+ 1386  ansible -i inventory.ini -m ping all
+ 1387  ansible-playbook -i inventory.ini first-playbook.yaml 
+ 1388  ssh ubuntu@54.224.242.13
+ 1389  ansible-playbook -i inventory.ini first-playbook.yaml 
+ 1390  ssh ubuntu@3.89.197.64
+ 1391  ansible-playbook -i inventory.ini first-playbook.yaml 
+ 1392  ansible-lint first-playbook.yaml 
+ 1393  ansible-playbook --check first-playbook.yaml 
+ 1394  ansible-playbook --check -i inventory.ini first-playbook.yaml 
+ 1395  ansible-playbook --check -i inventory.ini first-playbook.yaml --verbose
+ 1396  git add .
+ 1397  git commit 
+ 1398  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1399  ansible-galaxy -h
+ 1400  ansible-galaxy role -h
+ 1401  ls ~/.ansible/roles
+ 1402  which roles
+ 1403  ansible-galaxy role install bsmeding.swag_docker
+ 1404  ls
+ 1405  which roles
+ 1406  cd /home/vinod/.ansible/roles/
+ 1407  ls
+ 1408  ls bsmeding.swag_docker/
+ 1409  ls -ltr
+ 1410  cd bsmeding.swag_docker/
+ 1411  ls -ltr
+ 1412  cd /home/vinod/
+ 1413  ls
+ 1414  cd Ansible_Practice/
+ 1415  mkdir Day04
+ 1416  s
+ 1417  ls
+ 1418  mkdir Day01
+ 1419  cp install_ansible.txt ./Day01/
+ 1420  ls
+ 1421  mv Passwordlessauth.txt ./Day01/
+ 1422  mv install_ansible.txt ./Day01/
+ 1423  git add .
+ 1424  git commit -am 'Day01 adds'
+ 1425  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1426  cd Day04
+ 1427  ls
+ 1428  ansible-galaxy role init httpds 
+ 1429  ls -ltr
+ 1430  cd httpds/
+ 1431  ls 
+ 1432  ls -ltr
+ 1433  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@34.207.106.145
+ 1434  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@34.207.106.145'
+ 1435  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@98.91.250.129
+ 1436  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@98.91.250.129'
+ 1437  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@3.89.61.178
+ 1438  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@3.89.61.178'
+ 1439  cd ..
+ 1440  ansible-playbook -i inventory.ini first-playbook.yaml
+ 1441  history
+ 1442  history > day04_cmds.txt
+ 1443  git add .
+ 1444  git commit -am "roles"
+ 1445  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1446  clear
+ 1447  cd ..
+ 1448  cd Day06/
+ 1449  clear
+ 1450  ls -ltr
+ 1451  clar
+ 1452  clear
+ 1453  pip install boto3
+ 1454  ansible-galaxy collection install amazon.aws
+ 1455  ansible -version
+ 1456  ansible --version
+ 1457  cd /home/vinod/
+ 1458  ls
+ 1459  ls -ltr
+ 1460  cd .ansible/
+ 1461  pip install --upgrade ansible
+ 1462  ansible --version
+ 1463  ansible -version
+ 1464  ansible --version
+ 1465  cd ..
+ 1466  ls
+ 1467  cd Ansible_Practice/
+ 1468  cd Day06/
+ 1469  ls -ltr
+ 1470  which ansible
+ 1471  ansible --version
+ 1472  pip show ansible
+ 1473  ansible --version
+ 1474  pip show ansible
+ 1475  pip uninstall ansible ansible-core -y
+ 1476  sudo pip uninstall ansible ansible-core -y
+ 1477  pip show ansible
+ 1478  pip install  ansible
+ 1479  pip show ansible
+ 1480  ansible-galaxy collection install amazon.aws
+ 1481  which ansible
+ 1482  ansible --version
+ 1483  pip show ansible
+ 1484  export PATH=$HOME/.local/lib:$PATH
+ 1485  which ansible
+ 1486  $PATH
+ 1487  export PATH=/home/vinod/.local/lib/python3.10/site-packages:$PATH
+ 1488  which ansible
+ 1489  export PATH=$PATH:/usr/local/bin
+ 1490  ansible --version
+ 1491  which ansible
+ 1492  sudo apt install ansible
+ 1493  sudo apt install ansible-core 
+ 1494  which ansible
+ 1495  export PATH=$PATH:/usr/local/bin
+ 1496  sudo yum install -y python3 python3-pip
+ 1497  sudo apt-get update -y
+ 1498  sudo apt-get install -y python3 python3-pip
+ 1499  ansible --version
+ 1500  which version
+ 1501  sudo rm /usr/local/bin/ansible
+ 1502  which ansible
+ 1503  sudo rm /usr//bin/ansible
+ 1504  sudo rm /usr/bin/ansible
+ 1505  sudo rm /usr/local/bin/ansible
+ 1506  pip uninstall ansible ansible-core -y
+ 1507  pip install ansible==10.7.0
+ 1508  export PATH=$HOME/.local/bin:$PATH
+ 1509  ansible --version
+ 1510  ansible-galaxy collection install amazon.aws
+ 1511  clear
+ 1512  pip install boto3
+ 1513  ansible-galaxy collection install amazon.aws
+ 1514  openssl rand -base64 2048 > vault.pass
+ 1515  cd ec2/
+ 1516  ansible-galaxy role init ec2
+ 1517  ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
+ 1518  ansible-vault create group_vars/all/pass.yml --vault-password-file ../vault.pass 
+ 1519  ansible-playbook -i inventory.ini ec2_create.yaml 
+ 1520  ansible-playbook -i inventory.ini ec2_create.yaml --vault-password-file ../vault.pass 
+ 1521  ansible-galaxy role init ec2-restart
+ 1522  ansible-galaxy role init ec2-terminate
+ 1523  ansible-galaxy role init ec2-with-ebs
+ 1524  ansible-playbook -i inventory.ini ec2_restart.yaml --vault-password-file ../vault.pass 
+ 1525  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1526  ansible-galaxy role init remove-ebs
+ 1527  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1528  ansible-galaxy role init ec2-with-keypair-count2
+ 1529  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1530  ssh ubuntu@44.197.216.224
+ 1531  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1532  ssh ubuntu@44.197.216.224
+ 1533  ssh -i ~/.ssh/managed_instance.pem ubuntu@44.197.216.224
+ 1534  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@44.197.216.224
+ 1535  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@44.197.216.224'
+ 1536  ls ~/.ssh
+ 1537  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1538  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@44.197.178.185
+ 1539  ssh ubuntu@44.197.178.185
+ 1540  ssh -i ~/.ssh/managed_instance.pem ubuntu@44.197.178.185
+ 1541  ssh ubuntu@44.197.178.185
+ 1542  ssh-add ~/.ssh/managed_instance.pem
+ 1543  history
+ 1544  cd ..
+ 1545  git add .
+ 1546  git commit -am "ec2 module practice"
+ 1547  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1548  history > day6_cmds.txt
+ 1549  git add .
+ 1550  git commit -am "history"
+ 1551  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1552  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1553  cd ec2
+ 1554  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1555  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass -e type=t3.micro
+ 1556  cd ..
+ 1557  git add .
+ 1558  git commit -am "added variable"
+ 1559  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1560  ls -ltr
+ 1561  history > day6_cmds.txt 
+ 1562  cat day6_cmds.txt 
+ 1563  git add .
+ 1564  git commit -am "updated"
+ 1565  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1566  cd ..
+ 1567  cp ./Day06 ./Day07/
+ 1568  cp ./Day06/ ./Day07/
+ 1569  cp -r ./Day06/ ./Day07/
+ 1570  ls -ltr
+ 1571  cd Day07/
+ 1572  ls -ltr
+ 1573  ls Day06
+ 1574  mv ./Day06/ Day07
+ 1575  ls -ltr
+ 1576  mv ./Day07 .
+ 1577  mv ./Day07 ./
+ 1578  clear
+ 1579  ls 
+ 1580  cd Day07
+ 1581  ls
+ 1582  cd ..
+ 1583  mv ./Day07/ .
+ 1584  cd ..
+ 1585  mv ./Day7/Day07/ ./Day7/
+ 1586  mv ./Day7/Day07/ ./New/
+ 1587  cd Day07/
+ 1588  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass -e 
+ 1589  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1590  cd ec2/
+ 1591  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1592  ansible-playbook -i inventory.ini ec2-stop.yaml --vault-password-file ../vault.pass 
+ 1593  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@18.207.105.171
+ 1594  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@18.207.105.171'
+ 1595  ansible-playbook -i inventory.ini ec2-stop.yaml --vault-password-file ../vault.pass 
+ 1596  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@98.92.142.200
+ 1597  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@98.92.142.200'
+ 1598  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@98.92.191.202
+ 1599  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@98.92.191.202'
+ 1600  ansible-playbook -i inventory.ini ec2-stop.yaml --vault-password-file ../vault.pass 
+ 1601  clear
+ 1602  cd ..
+ 1603  git add .
+ 1604  history > day7_cmds.txt
+ 1605  git add .
+ 1606  git commit -am "day07"
+ 1607  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1608  clear
+ 1609  git add .
+ 1610  git commit 
+ 1611  git branch
+ 1612  cd ..
+ 1613  \cd Day08/
+ 1614  clear
+ 1615  cd ..
+ 1616  cd Day07/
+ 1617  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1618  cd ec2/
+ 1619  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1620  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@100.53.67.236
+ 1621  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@100.53.67.236'
+ 1622  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@44.201.34.101
+ 1623  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@13.222.18.95
+ 1624  cd ..
+ 1625  cd Day08/
+ 1626  ls
+ 1627  ansible-playbook -i inventory.ini error_handling.yaml all
+ 1628  ansible-playbook -i inventory.ini error_handling.yaml 
+ 1629  cd ..
+ 1630  git add .
+ 1631  git commit -am "error handling"
+ 1632  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1633  git remove -v
+ 1634  git remote -v
+ 1635  ls ~/.ssh
+ 1636  cd ~/.ssh
+ 1637  cat id_rsa
+ 1638  cat id_rsa.pub 
+ 1639  cd /home
+ 1640  cd vinod
+ 1641  ls
+ 1642  cd Ansible_Practice/
+ 1643  ls
+ 1644  cd Day08/
+ 1645  clear
+ 1646  git remote -v
+ 1647  git push origin -force
+ 1648  git push origin --force
+ 1649  git push origin main --force
+ 1650  git remote -v
+ 1651  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1652  git status
+ 1653  ssh -T git@github.com
+ 1654  git remote set-url origin git@github.com:VinodM5619/Ansible_Practice.git
+ 1655  git push origin main
+ 1656  history > day8_cmds.txt
+ 1657  ls
+ 1658  git add .
+ 1659  git commit -am "history.txt"
+ 1660  git push origin main
+ 1661  ssh -T git@github.com
+ 1662  clear
+ 1663  cd /home/vinod
+ 1664  ls
+ 1665  ls -ltr
+ 1666  rm vinod-aws-keypair.pem
+ 1667  ls -ltr
+ 1668  rm vinod-aws-keypair.pem\:Zone.Identifier 
+ 1669  ls -ltr
+ 1670  pwd
+ 1671  cd Ansible_Practice/
+ 1672  ls -ltr
+ 1673  clear
+ 1674  cat install_ansible.txt 
+ 1675  clear
+ 1676  ansible --version
+ 1677  which ansible
+ 1678  ls -ltr /usr/local/bin/ansible
+ 1679  ls -ltr /usr/local/bin/
+ 1680  hostnamectl
+ 1681  ls /mnc/c/users/downloads
+ 1682  ls /mnc/c/users/vinod morusu/downloads
+ 1683  cat /mnt/c/Users/Vinod Morusu/Downloads/dbo.prcEXT765_ALTER_20260116
+ 1684  cat /mnt/c/Users/Vinod Morusu/Downloads/test.txt
+ 1685  cat "/mnt/c/Users/Vinod Morusu/Downloads/test.txt"
+ 1686  cp "/mnt/c/Users/Vinod Morusu/Downloads/test.txt" .
+ 1687  ls
+ 1688  ls -ltr
+ 1689  cat test.txt 
+ 1690  vi test.txt 
+ 1691  rm test.txt 
+ 1692  ls -ltr
+ 1693  ssh-copy-id -f "-o IdentityFile /mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem" ubuntu@54.224.11.197
+ 1694  ssh-copy-id -i "/mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem" ubuntu@54.224.11.197
+ 1695  ssh-keygen -y -f "/mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem" > ~/.ssh/aws_key.pub
+ 1696  ls -ltr '/mnt/c/Users/Vinod Morusu/Downloads/'
+ 1697  chown 600 '/mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem' 
+ 1698  sudo chown 600 '/mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem'
+ 1699  ls -ltr '/mnt/c/Users/Vinod Morusu/Downloads/'
+ 1700  chmod 600 "/mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem"
+ 1701  ssh-copy-id -i ~/.ssh/aws_key.pub ubuntu@54.224.11.197
+ 1702  ssh-keygen -y -f "/mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem" > ~/.ssh/aws_key.pub
+ 1703  chmod 400 "/mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem"
+ 1704  ssh-keygen -y -f "/mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem" > ~/.ssh/aws_key.pub
+ 1705  cp "/mnt/c/Users/Vinod Morusu/Downloads/managed instance key pair.pem" ~/.ssh/managed_instance.pem
+ 1706  chmod 600 ~/.ssh/managed_instance.pem
+ 1707  ssh-keygen -y -f "~/.ssh/managed_instance.pem" > ~/.ssh/aws_key.pub
+ 1708  ls ~/.ssh/managed_instance.pem 
+ 1709  ssh-keygen -y -f /home/vinod/.ssh/managed_instance.pem > ~/.ssh/managed_instance.pub
+ 1710  sh-copy-id -i ~/.ssh/aws_key.pub ubuntu@54.224.11.197
+ 1711  sh-copy-id -i ~/.ssh/managed_instance.pub ubuntu@54.224.11.197
+ 1712  ssh-copy-id -i ~/.ssh/managed_instance.pub ubuntu@54.224.11.197
+ 1713  ssh-copy-id -i -f  ~/.ssh/managed_instance.pub ubuntu@54.224.11.197
+ 1714  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pub" ubuntu@54.224.11.197
+ 1715  chown 600 ~/.ssh/managed_instance.pub
+ 1716  sudo chown 600 ~/.ssh/managed_instance.pub
+ 1717  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pub" ubuntu@54.224.11.197
+ 1718  cat /home/vinod/.ssh/managed_instance.pub
+ 1719  sudo chown 700 ~/.ssh/managed_instance.pub
+ 1720  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pub" ubuntu@54.224.11.197
+ 1721  sudo chown 400 ~/.ssh/managed_instance.pub
+ 1722  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pub" ubuntu@54.224.11.197
+ 1723  ls /home/vinod/.ssh/
+ 1724  rm /home/vinod/.ssh/managed_instance.pub
+ 1725  ls /home/vinod/.ssh/
+ 1726  ssh-keygen -y -f ~/.ssh/managed_instance.pem > ~/.ssh/managed_instance.pub
+ 1727  ls /home/vinod/.ssh/
+ 1728  ssh-copy-id -i ~/.ssh/managed_instance.pub ubuntu@54.224.11.197
+ 1729  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pub" ubuntu@54.224.11.197
+ 1730  ssh -i ~/.ssh/managed_instance.pem ubuntu@54.224.11.197
+ 1731  ssh -i ~/.ssh/managed_instance.pem ubuntu@98.81.210.124
+ 1732  chmod 600 ~/.ssh/managed_instance.pem
+ 1733  chmod 644 ~/.ssh/managed_instance.pub
+ 1734  ls ~/.ssh.
+ 1735  ls ~/.ssh
+ 1736  ls -ltr ~/.sh
+ 1737  ls -ltr ~/.ssh
+ 1738  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pub" ubuntu@54.224.11.197
+ 1739  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@54.224.11.197
+ 1740  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@54.224.11.197'
+ 1741  ssh 'ubuntu@54.224.11.197'
+ 1742  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@98.81.210.124
+ 1743  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@98.81.210.124'
+ 1744  ssh 'ubuntu@98.81.210.124'
+ 1745  history 
+ 1746  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@100.52.253.232'
+ 1747  history > Passwordlessauth.txt
+ 1748  ssh ubuntu@100.52.253.232
+ 1749  ssh-copy-id ubuntu@100.52.253.232
+ 1750  ssh-copy-id -f ubuntu@100.52.253.232
+ 1751  ssh 'ubuntu@100.52.253.232'
+ 1752  history
+ 1753  git add .
+ 1754  git commit 
+ 1755  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1756  which ansible
+ 1757  ls /etc/ansible
+ 1758  ls /usr/local/bin/ansible
+ 1759  which ansible
+ 1760  ansible -i inventory.ini -m ping all
+ 1761  pwd
+ 1762  cd .
+ 1763  ls
+ 1764  cd ..
+ 1765  pwd
+ 1766  ls
+ 1767  cd AWS_Terraform/
+ 1768  cd Ec2Instances/
+ 1769  tf init
+ 1770  alias tf=terraform
+ 1771  tf init
+ 1772  tf plan
+ 1773  tf apply
+ 1774  tf plan
+ 1775  tf apply -auto-approve
+ 1776  tf destroy
+ 1777  tf apply
+ 1778  git add .
+ 1779  git commit 
+ 1780  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1781  git status
+ 1782  ansible-vault
+ 1783  clear
+ 1784  mkdir Day09
+ 1785  cd Day09/
+ 1786  clear
+ 1787  ls
+ 1788  clear
+ 1789  aws s3 ls
+ 1790  cd ..
+ 1791  aws s3 ls
+ 1792  aws configure
+ 1793  pwd
+ 1794  whoami
+ 1795  clear
+ 1796  ansible --version
+ 1797  aws configure
+ 1798  cd ..
+ 1799  aws s3 ls
+ 1800  ls
+ 1801  cd AWS_Terraform/
+ 1802  ls
+ 1803  clear
+ 1804  ls -ltr
+ 1805  aws s3 ls
+ 1806  cd ..
+ 1807  cd Ansible_Practice/
+ 1808  clear
+ 1809  ls
+ 1810  ls -ltr
+ 1811  ansible
+ 1812  clear
+ 1813  aws s3 ls
+ 1814  aws --version
+ 1815  pip install --upgrade awscli botocore
+ 1816  sudo apt remove awscli
+ 1817  pip install awscli
+ 1818  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+ 1819  unzip awscliv2.zip
+ 1820  sudo ./aws/install
+ 1821  aws --version
+ 1822  cd aws
+ 1823  aws --version
+ 1824  aws s3 ls
+ 1825  cd ..
+ 1826  ls 
+ 1827  aws s3 ls
+ 1828  unzip awscliv2.zip
+ 1829  sudo ./aws/install
+ 1830  sudo ./aws/install 
+ 1831  cd /usr/local/aws-cli/v2/current
+ 1832  aws --version
+ 1833  export PATH=$PATH:/usr/local/bin
+ 1834  export PATH=$PATH:/usr/local/aws-cli/v2/current
+ 1835  pwd
+ 1836  cd /home/vinod
+ 1837  ls
+ 1838  cd AWS_Terraform/
+ 1839  ls
+ 1840  aws --version
+ 1841  aws s3 ls
+ 1842  clear
+ 1843  sudo ps -ef | grep boto3
+ 1844  sudo ps -ef | grep pip
+ 1845  pip install boto3
+ 1846  ansible-galaxy collection install amazon.aws
+ 1847  clear
+ 1848  cd Day09
+ 1849  cd .. 
+ 1850  cd Ansible_Practice/
+ 1851  cd Day09/
+ 1852  clear
+ 1853  ansible-playbook s3_versioning.yaml 
+ 1854  cd ..
+ 1855  git add .
+ 1856  git status
+ 1857  git reset
+ 1858  git status
+ 1859  git add Day09
+ 1860  git status
+ 1861  git commit -am "s3 versioning"
+ 1862  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1863  pwd
+ 1864  cd Docker
+ 1865  ls
+ 1866  git add .
+ 1867  git commit 
+ 1868  git rebase
+ 1869  cd ..
+ 1870  git add ./Docker/
+ 1871  git commit 
+ 1872  git status
+ 1873  git log
+ 1874  cd Docker/
+ 1875  git init
+ 1876  git remote add origin https://github.com/VinodM5619/Docker.git
+ 1877  git branch -M main
+ 1878  git push -u origin main
+ 1879  git chceckout -b newbranch
+ 1880  git commit -m Docker
+ 1881  git add .
+ 1882  git commit -m testing
+ 1883  git push https://github.com/VinodM5619/Docker.git -force
+ 1884  git push https://github.com/VinodM5619/Docker.git --force
+ 1885  clear
+ 1886  git add .
+ 1887  git commit -m deleted
+ 1888  git push https://github.com/VinodM5619/Docker.git --force
+ 1889  systemctl status docker
+ 1890  docker run hello-world
+ 1891  sudo systemctl status docker
+ 1892  clear
+ 1893  git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero
+ 1894  ls
+ 1895  ls -ltr
+ 1896  tree
+ 1897  sudo apt install tree
+ 1898  tree
+ 1899  cd Docker-Zero-to-Hero/
+ 1900  ls
+ 1901  cd examples/
+ 1902  ls 
+ 1903  cd first-docker-file/
+ 1904  ls
+ 1905  cd ../..
+ 1906  cd ..
+ 1907  ls
+ 1908  git add .
+ 1909  git commit 
+ 1910  git push https://github.com/VinodM5619/Docker.git --force
+ 1911  rm Docker-Zero-to-Hero/
+ 1912  rm -rf Docker-Zero-to-Hero/
+ 1913  cd ..
+ 1914  git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero
+ 1915  pwd
+ 1916  ls
+ 1917  cd Docker
+ 1918  git add .
+ 1919  git commit -am 'added from another repo'
+ 1920  git push https://github.com/VinodM5619/Docker.git --force
+ 1921  docker run hello-world
+ 1922  cd examples/
+ 1923  ls
+ 1924  docker run first-docker-file
+ 1925  cd first-docker-file/
+ 1926  clear
+ 1927  docker build -t vinodm1992/my-first-docker-image:latest
+ 1928  docker login
+ 1929  docker login -u
+ 1930  docker login
+ 1931  docker build -t vinodm1992/my-first-docker-image:latest
+ 1932  ls
+ 1933  docker build
+ 1934  docker build -t
+ 1935  docker build -t vinodm1992/my-first-image:latest
+ 1936  docker buildx -t vinodm1992/my-first-image:latest
+ 1937  docker build --help
+ 1938  docker build 
+ 1939  docker build -t latest
+ 1940  docker build -t vinodm1992/my-first-docker-image:latest .
+ 1941  docker images
+ 1942  docker run -it 48f25e46de32
+ 1943  docker login
+ 1944  docker push 48f25e46de32
+ 1945  docker push vinodm1992/my-first-docker-image:latest
+ 1946  docker pull vinodm1992/my-first-docker-image:fromhub
+ 1947  docker pull vinodm1992/my-first-docker-image:latest
+ 1948  docker images
+ 1949  docker pull postgres:15.15-bookworm
+ 1950  docker images
+ 1951  docker run postgres:15.15-bookworm
+ 1952  docker run postgres:15.15-bookworm postgres
+ 1953  docker run --name some-postgres -e POSTGRES_PASSWORD=vinod -d postgres
+ 1954  docker images
+ 1955  systemctl status postgres
+ 1956  sudo systemctl status postgres
+ 1957  sudo ps | grep 'postgres'
+ 1958  docker run postgre:latest
+ 1959  docker run --name some-postgres -e POSTGRES_PASSWORD=vinod -d postgres
+ 1960  docker containers
+ 1961  docker container
+ 1962  docker container ls
+ 1963  docker container stop 
+ 1964  docker container stop  
+ 1965  docker container stop  f8395b265dda
+ 1966  docker container ls
+ 1967  docker images
+ 1968  docker run hello-world:latest
+ 1969  docker containers ls
+ 1970  docker container ls
+ 1971  docker run ubuntu:latest
+ 1972  docker container ls
+ 1973  docker run postgres:latest
+ 1974  docker run --name some-postgres -e POSTGRES_PASSWORD=vinod -d postgres
+ 1975  docker container ls
+ 1976  docker container --help
+ 1977  docker container ls
+ 1978  docker container start  f8395b265dda
+ 1979  docker container ls
+ 1980  docker container stop f8395b265dda
+ 1981  docker container ls
+ 1982  docker ps -a
+ 1983  docker ps -q -f "status=exited"
+ 1984  docker rm $(docker ps -q -f "status=exited")
+ 1985  dockerk ps -a
+ 1986  docker ps -a
+ 1987  docker container ls
+ 1988  history
+ 1989  cd ..
+ 1990  history > day1_cmds.txt
+ 1991  git add .
+ 1992  git show
+ 1993  ls
+ 1994  git commit -am "practice"
+ 1995  git push https://github.com/VinodM5619/Docker.git --force
+ 1996  ls
+ 1997  clear
+ 1998  systemctl status docker
+ 1999  clear
+ 2000  ls
+ 2001  cd examples/
+ 2002  ls
+ 2003  cd python-web-app/
+ 2004  ls
+ 2005  docker build .
+ 2006  ls
+ 2007  cat req
+ 2008  cat requirements.txt 
+ 2009  cat dock
+ 2010  cat Dockerfile 
+ 2011  docker images
+ 2012  docker run -it e6dd9d81e2ae
+ 2013  docker run -p 8000:8000 -it e6dd9d81e2ae
+ 2014  ls
+ 2015  cd devops/
+ 2016  ls
+ 2017  cat manage.py 
+ 2018  ls
+ 2019  cd devops/
+ 2020  ls
+ 2021  cat settings.py 
+ 2022  cd ..
+ 2023  cd..
+ 2024  cd ..
+ 2025  ls
+ 2026  docker images
+ 2027  docker run -p 8000:8000 -it e6dd9d81e2ae
+ 2028  ipconfig
+ 2029  uname
+ 2030  systemctl
+ 2031  ls
+ 2032  cat Doock
+ 2033  cat Dockerfile 
+ 2034  vi Dockerfile 
+ 2035  docker build .
+ 2036  docker images
+ 2037  ipconfig 
+ 2038  docker run -p 8000:8000 -it 2abac7c86a3a
+ 2039  vi Dockerfile 
+ 2040  docker imagaes --help
+ 2041  docker images
+ 2042  docker images kill e6dd9d81e2ae
+ 2043  docker images rmi e6dd9d81e2ae
+ 2044  docker rmi e6dd9d81e2ae
+ 2045  docker container
+ 2046  docker container list
+ 2047  docker container --help
+ 2048  docker container inspect
+ 2049  docker ps -a
+ 2050  docker rm 107ea2c4ae6f
+ 2051  docker rm 1141d689dc2a
+ 2052  docker rm 59421fa35c89
+ 2053  docker rm 0a184655252c
+ 2054  docker images
+ 2055  docker rmi e6dd9d81e2ae
+ 2056  docker rmi 2abac7c86a3a
+ 2057  docker build .
+ 2058  docker images
+ 2059  docker run -p 8000:8000 -it 0182c4ccd9d3
+ 2060  curl http://0.0.0.0:8000/
+ 2061  cd ..
+ 2062  ls
+ 2063  cd ..
+ 2064  ls
+ 2065  history 
+ 2066  history > day2_cmds.txt
